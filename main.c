@@ -127,7 +127,10 @@ EPWM_INFO epwm1_info;
 #define EPWM1_MIN_CMPA       50
 #define EPWM1_MAX_CMPB     1950
 #define EPWM1_MIN_CMPB       50
-
+#define IN1           GpioDataRegs.GPADAT.bit.GPIO2
+#define IN2           GpioDataRegs.GPADAT.bit.GPIO3
+#define IN3           GpioDataRegs.GPADAT.bit.GPIO4
+#define IN4           GpioDataRegs.GPADAT.bit.GPIO5
 //
 // Defines that keep track of which way the compare value is moving
 //
